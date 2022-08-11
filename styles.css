@@ -1,0 +1,105 @@
+.row-section {
+  width: 720px;
+  height: 343px;
+  margin: 0 auto;
+}
+#hero-section {
+  background-image: url('/assets/ajao_image.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hero-sub-section {
+  background-color: #1d3557;
+  opacity: 0.7;
+  width: 225px;
+  height: 42px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 9px;
+}
+#hero-sub-section-1 {
+  background-color: #7bb8de;
+  opacity: 0.8;
+  padding: 15px 5px;
+  margin: 4px auto;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+#activity-background {
+  background-color: #f1faee;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.activity {
+  width: 180px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+}
+.image-activity {
+  width: 100px;
+  height: 100px;
+  margin-top: 19px;
+  border: 2px solid green;
+}
+.image-act {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.line-1 {
+  width: 183px;
+  height: 42px;
+  text-align: center;
+  margin: 8px 0;
+}
+.line-2 {
+  width: 198px;
+  height: 55px;
+  text-align: center;
+  margin: 8px 0;
+}
+#row-self-intro {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#self-intro-background {
+  width: 400px;
+  height: 294px;
+  background-color: #a8dadc;
+  border-radius: 12px;
+  display: flex;
+  padding: 0 20px;
+}
+.self-intro-image {
+  width: 177px;
+  height: 230px;
+  border-radius: 25px;
+  margin: auto 13px;
+}
+.text-intro {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brief-intro {
+  width: 189px;
+  height: 71px;
+}
